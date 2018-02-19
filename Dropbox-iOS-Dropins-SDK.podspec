@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   }
   s.authors     = { "lingoer" => "lingoerer@gmail.com", "tangplin" => "tangplin@gmail.com" }
   s.requires_arc = true
+  s.source   = { :git => "https://github.com/evilutioner/dropbox-ios-dropins-sdk", :tag => s.version }
   s.source_files = 'DBChooser/**/*.{h,m}'
   s.frameworks = 'DBChooser', 'Security', 'QuartzCore'
 end
