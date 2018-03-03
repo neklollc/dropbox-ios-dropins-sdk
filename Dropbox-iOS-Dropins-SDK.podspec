@@ -3,10 +3,7 @@ Pod::Spec.new do |s|
   s.version     = "1.2.1"
   s.summary     = "The Dropbox Chooser SDK for iOS."
   s.homepage    = "https://www.dropbox.com/developers/dropins/chooser/ios"
-  s.license     = {
-    "type": "Copyright",
-    "file": "LICENSE"
-  }
+  s.license     = { :type => "Copyright", :file => "LICENSE" }
   s.module_name = "DBChooser"
   s.requires_arc = true
   s.authors = "Dropbox"
