@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.resource_bundle = { 'MainBundle' => 'DBChooser.bundle' }
 
-  spec.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.0'
 end
