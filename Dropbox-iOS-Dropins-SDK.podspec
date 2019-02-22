@@ -6,9 +6,14 @@ Pod::Spec.new do |s|
   s.license     = { :type => "Copyright", :file => "LICENSE" }
   s.module_name = "DBChooser"
   s.requires_arc = true
+  
   s.authors = "Dropbox"
+
   s.source   = { :git => "https://github.com/evilutioner/dropbox-ios-dropins-sdk.git", :tag => s.version }
   s.source_files = 'DBChooser/**/*.{h,m}'
   s.frameworks = 'Security', 'QuartzCore'
+
   s.resource_bundle = { 'MainBundle' => 'DBChooser.bundle' }
+
+  spec.ios.deployment_target = '8.0'
 end
